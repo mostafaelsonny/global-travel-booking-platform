@@ -83,6 +83,7 @@ sonny-travel/
 
 ---
 
+```
 ## <a name="quick-start">🤸 Quick Start</a>
 
 ```bash
@@ -100,6 +101,7 @@ npm run dev
 
 ---
 
+```
 ## <a name="snippets">🕸️ snippets</a>
 
 @import "tailwindcss";
@@ -133,8 +135,7 @@ npm run dev
   }
 }
 
----
-
+```
 ## <a name="links">🔗 Assets</a>
  🎥 Videos: /public/videos
 
