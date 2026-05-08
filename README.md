@@ -55,8 +55,9 @@ In this project, I've implemented:
 - 🎭 **Cinematic UX:** Glassmorphic UI with smooth GSAP-powered reveals.
 - 📱 **Rock-Solid Reliability:** Fully responsive and mobile-optimized for explorers on the go.
 
-  
-- ## <a name="folder-structure">📂 Folder Structure</a>
+---
+
+## <a name="folder-structure">📂 Folder Structure</a>
 
 The project follows a **Feature-Based Architecture** to ensure maximum scalability and clean code standards:
 
@@ -80,6 +81,8 @@ sonny-travel/
 │   └── index.css           # Tailwind v4 Theme & Global Styles
 └── vite.config.js          # Build Optimization
 
+---
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 ```bash
@@ -94,6 +97,8 @@ npm install
 
 # 4. Start the development server
 npm run dev
+
+---
 
 ## <a name="snippets">🕸️ snippets</a>
 
@@ -128,6 +133,7 @@ npm run dev
   }
 }
 
+---
 
 ## <a name="links">🔗 Assets</a>
  🎥 Videos: /public/videos
