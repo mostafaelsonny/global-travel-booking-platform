@@ -25,10 +25,11 @@
 1. 🚀 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. ✨ [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🌐 [Community](#more)
+4. 📂 [Folder Structure](#folder-structure)
+5. 🤸 [Quick Start](#quick-start)
+6. 🕸️ [Snippets](#snippets)
+7. 🔗 [Assets](#links)
+8. 🌐 [Community](#more)
 
 ## <a name="introduction">🚀 Introduction</a>
 
@@ -54,6 +55,31 @@ In this project, I've implemented:
 - 🎭 **Cinematic UX:** Glassmorphic UI with smooth GSAP-powered reveals.
 - 📱 **Rock-Solid Reliability:** Fully responsive and mobile-optimized for explorers on the go.
 
+  
+- ## <a name="folder-structure">📂 Folder Structure</a>
+
+The project follows a **Feature-Based Architecture** to ensure maximum scalability and clean code standards:
+
+```text
+sonny-travel/
+├── src/
+│   ├── core/
+│   │   ├── data/           # seedData.js (Main database of 52 destinations)
+│   │   ├── firebase/       # Backend configuration & logic
+│   │   └── db/             # Seeding scripts for Firestore
+│   ├── features/           # Independent Business Logic Modules
+│   │   ├── auth/           # Login & Registration
+│   │   ├── tours/          # Catalog & Detail views
+│   │   ├── profile/        # User bookings & Wishlist
+│   │   └── admin/          # Management Dashboard
+│   ├── shared/             # Atomic UI Components
+│   │   └── components/     # Navbar, TiltCard, AnimatedSection, Loading
+│   ├── stores/             # Zustand State Management (authStore, bookingStore)
+│   ├── scripts/            # Automation (Cloudinary upload scripts)
+│   ├── App.jsx             # Main Router & Theme Providers
+│   └── index.css           # Tailwind v4 Theme & Global Styles
+└── vite.config.js          # Build Optimization
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 ```bash
@@ -68,6 +94,8 @@ npm install
 
 # 4. Start the development server
 npm run dev
+
+## <a name="snippets">🕸️ snippets</a>
 
 @import "tailwindcss";
 
@@ -101,11 +129,9 @@ npm run dev
 }
 
 
-export { destinations };
+## <a name="links">🔗 Assets</a>
+ 🎥 Videos: /public/videos
 
-🔗 Assets
-🎥 Cinematic Backgrounds: /public/videos
+ 📚 Fonts: Inter & Playfair Display
 
-📚 Brand Typography: Inter & Playfair Display
-
-🖼️ Optimized Imagery: /src/assets
+ 🖼️ Images & SVGs: /src/assets
