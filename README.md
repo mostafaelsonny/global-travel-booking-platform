@@ -135,7 +135,7 @@ npm run dev
   }
 }
 
-```
+`
 ## <a name="links">🔗 Assets</a>
  🎥 Videos: /public/videos
 
