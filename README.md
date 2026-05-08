@@ -1,74 +1,127 @@
-🌍 Sonny Travel — The Ultimate Global Booking EcosystemSonny Travel is a high-performance, cinematic travel booking platform designed for the modern explorer. Covering 52 destinations across all 7 continents, it provides a seamless, "all-in-one" experience for booking flights, luxury hotels, and curated daily itineraries. Built with a focus on speed, reliability, and immersive animations.
+<div>
+ <br />
+  <div align="center">
+    </div>
+ <br />
+ <br />
 
-📑 Table of Contents
-🚀 Introduction
-⚙️ Tech Stack
-✨ Key Features
-📂 Folder Structure
-🎨 Design System
-🛠️ Architecture & State
-🤸 Quick Start
+ <div>
+   <img src="https://img.shields.io/badge/-React_JS_V19-black?style=for-the-badge&logoColor=white&logo=react&color=007ACC" alt="react.js" />
+   <img src="https://img.shields.io/badge/-Tailwind_CSS_v4-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=030712" alt="tailwindcss" />
+   <img src="https://img.shields.io/badge/-GSAP-black?style=for-the-badge&logoColor=white&logo=greensock&color=88CE02" alt="greensock" />
+   <img src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase&color=FFCA28" alt="firebase" />
+ </div>
 
-##🚀 IntroductionSonny Travel isn't just a booking site; it's a digital travel companion. Leveraging GSAP for high-end cinematic transitions and React 19 for lightning-fast interactions, the platform allows users to explore the world with zero lag. From searching global destinations to generating instant PDF confirmations, every step is engineered for premium reliability.
+ <h3 style="font-weight:700;font-size:30px;">Sonny Travel — Global Booking Ecosystem</h3>
 
-⚙️ Tech Stack
-Frontend: React 19 + Vite
-Styling: Tailwind CSS v4 (Alpha/Latest)
-Animations: GSAP (ScrollTrigger, Flip, & Custom Timelines)
-Backend/Auth: Firebase (Firestore, Authentication, Storage)
-State Management: Zustand (Modular Stores)
-Document Generation: JSPDF / React-PDF (For instant booking vouchers)
+  <div>
+    Ready to explore the world with a cinematic, high-performance booking platform? 
+    <b>Sonny Travel</b> delivers a seamless experience for 52 global destinations using <b>React 19</b>, <b>GSAP</b>, and the latest <b>Tailwind CSS v4</b>.
+   </div>
+</div>
 
-##✨ Key Features
-	✈️ Global Reach: 52 curated destinations across every continent.
-	🏨 Integrated Booking: Complete package handling (Flights + Hotel + Daily Plans).
-	🔍 Advanced Discovery: Real-time search and price-range filtering (Trip Ring).📅 Dynamic Itineraries: Detailed 5-day plans for every single 	destination.
-	📄 Instant Vouchers: Generate and download PDF booking summaries automatically.
-	🎭 Immersive UI: Glassmorphic design with GSAP-powered "Tilt" cards and smooth reveals.
-	🔒 Secure Auth: Full user profile management and booking history via Firebase.
+## 📋 <a name="table">Table of Contents</a>
 
-##📂 Folder StructureThe project follows a Feature-Based Architecture for maximum scalability:Plaintextsonny-travel/
-├── src/
-│   ├── core/
-│   │   ├── data/           # Seed data & constants (52 destinations)
-│   │   ├── firebase/       # Config & Services (Auth, Firestore)
-│   │   └── db/             # Seeder scripts for database initialization
-│   ├── features/           # Modularized Business Logic
-│   │   ├── admin/          # Dashboard for managing bookings
-│   │   ├── auth/           # Login/Register modules
-│   │   ├── tours/          # Destination listing & Detail views
-│   │   └── profile/        # User bookings & Wishlist
-│   ├── shared/             # Atomic UI Components
-│   │   └── components/     # Navbar, Footer, AnimatedSections, TiltCards
-│   ├── stores/             # Zustand Global State (Auth, Booking, Dest)
-│   ├── scripts/            # Automation (Cloudinary Uploads, etc.)
-│   └── App.jsx             # Main Router & Provider Setup
-└── public/                 # Static assets & SVG Icons
+1. 🚀 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. ✨ [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets (Code to Copy)](#snippets)
+6. 🔗 [Assets](#links)
+7. 🌐 [Community](#more)
 
-##🎨 Design System
-	|Token|Usage|Value|
-	|-----|-----|-----|
-	|Primary|Branding|Buttons|Blue-600 (#2563eb)|
-	|Accent|Price/Highlights|Amber-500 (#d97706)|
-	|Surface|Dark Mode|Slate-950 (#020617)|
-	|Glass|Cards/Overlays|"rgba(255, 255, 255, 0.05)"|
-	|Display|Headings|Playfair Display (Serif)|
+## <a name="introduction">🚀 Introduction</a>
 
-##🛠️ Architecture & State
-	Reliability: Using Firebase onSnapshot for real-time booking updates.
-	Performance: All heavy images are optimized and served via Cloudinary.
-	State: Decoupled logic using Zustand stores (authStore.js, destinationStore.js) to prevent unnecessary re-renders.
+**Sonny Travel** is a full-scale digital travel companion engineered for speed, reliability, and visual storytelling. Covering 52 destinations across all continents, this ecosystem integrates flight scheduling, hotel stays, and curated daily plans into one fluid interface. By leveraging **GSAP** for cinematic transitions and **Firebase** for real-time data, it sets a new standard for modern travel booking applications.
 
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-##🤸 Quick StartBash# 1. Clone the repository
-git clone https://github.com/mostafaelsonny/sonny-travel.git
+- ⚛️ **React 19:** Utilizing the latest concurrent rendering features.
+- 🌀 **Tailwind CSS v4:** Next-generation utility-first styling with native CSS variables.
+- 🎞️ **GSAP:** GreenSock Animation Platform for scroll-triggered and flip animations.
+- 🔥 **Firebase:** Handling Authentication and Firestore real-time database.
+- 📦 **Zustand:** Lightweight and modular state management.
+
+## <a name="features">✨ Features</a>
+
+In this project, I've implemented:
+
+- 🌍 **Global Coverage:** 52 unique destinations across all 7 continents.
+- 📄 **PDF Generation:** Instant automated booking vouchers upon confirmation.
+- 🔍 **Dynamic Discovery:** Advanced search and "Trip Ring" price filtering.
+- ⚡ **Feature-Based Architecture:** Scalable folder structure (Core/Features/Shared).
+- 🏨 **Integrated Itineraries:** Full Flight + Hotel + 5-day daily planning logic.
+- 🎭 **Cinematic UX:** Glassmorphic UI with smooth GSAP-powered reveals.
+- 📱 **Rock-Solid Reliability:** Fully responsive and mobile-optimized for explorers on the go.
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+```bash
+# 1. Clone the repo
+git clone [https://github.com/mostafaelsonny/sonny-travel.git](https://github.com/mostafaelsonny/sonny-travel.git)
 
 # 2. Install dependencies
 npm install
 
-# 3. Setup Environment Variables
-# Create a .env.local and add your Firebase & Cloudinary keys
+# 3. Configure Firebase
+# Create a .env.local file with your VITE_FIREBASE_API_KEY, etc.
 
-# 4. Start the engine
+# 4. Start the development server
 npm run dev
-Built with ❤️ for World Explorers | Sonny Travel v1.0
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  /* Primary Blue Palette */
+  --color-primary-50: #eff6ff;
+  --color-primary-600: #2563eb;
+  --color-primary-900: #1e3a8a;
+
+  /* Accent Gold Palette */
+  --color-accent-400: #f59e0b;
+  --color-accent-500: #d97706;
+
+  /* Deep Dark Palette */
+  --color-dark-800: #1e293b;
+  --color-dark-950: #020617;
+
+  /* Glassmorphism Effects */
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-dark-950 text-dark-50 antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+// Sample Destination Structure for 52 global locations
+const destinations = [
+  {
+    id: "tokyo-jp",
+    name: "Tokyo",
+    continent: "Asia",
+    priceRange: "$$$",
+    tags: ["Tech", "Food", "Culture"],
+    itinerary: [
+      { day: 1, activity: "Arrival & Shibuya Crossing" },
+      { day: 2, activity: "Harajuku & Meiji Shrine" },
+      // ... up to 5 days
+    ]
+  },
+  // Covers 52 Destinations across all continents
+];
+
+export { destinations };
+
+🔗 Assets
+🎥 Cinematic Backgrounds: /public/videos
+
+📚 Brand Typography: Inter & Playfair Display
+
+🖼️ Optimized Imagery: /src/assets
