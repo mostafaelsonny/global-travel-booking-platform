@@ -100,22 +100,6 @@ npm run dev
   }
 }
 
-// Sample Destination Structure for 52 global locations
-const destinations = [
-  {
-    id: "tokyo-jp",
-    name: "Tokyo",
-    continent: "Asia",
-    priceRange: "$$$",
-    tags: ["Tech", "Food", "Culture"],
-    itinerary: [
-      { day: 1, activity: "Arrival & Shibuya Crossing" },
-      { day: 2, activity: "Harajuku & Meiji Shrine" },
-      // ... up to 5 days
-    ]
-  },
-  // Covers 52 Destinations across all continents
-];
 
 export { destinations };
 
